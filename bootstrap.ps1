@@ -40,7 +40,7 @@ Start-Process -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clon
 
 # 2 #
 ### [ Edit branch and git user in URI ] ###
-Start-Process -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch v2.1.0 https://github.com/rsWinAutomationSupport/rsGit.git"
+Start-Process -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.gitBr) https://github.com/rsWinAutomationSupport/rsGit.git"
 ###########################################
 
 ##################################################
